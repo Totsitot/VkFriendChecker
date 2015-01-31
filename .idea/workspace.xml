@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="" />
+    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="+">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="VkFriendChecker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +74,7 @@
       <file leaf-file-name="Api.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-3.8461537" vertical-offset="16180" max-vertical-offset="62128">
+            <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-16.538462" vertical-offset="16180" max-vertical-offset="62458">
               <folding />
             </state>
           </provider>
@@ -76,7 +83,7 @@
       <file leaf-file-name="runner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
+            <state line="66" column="41" selection-start="1951" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1794#1800#0" expanded="true" />
@@ -85,11 +92,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="MainThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-              <folding />
+            <state line="28" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="946">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1804">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#364#373#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#1577#1583#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +139,12 @@
       <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="3234">
-              <folding />
+            <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="3344">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#552#564#0" expanded="true" />
+                <element signature="e#4420#4438#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +158,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.040816326" vertical-offset="0" max-vertical-offset="539">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -137,13 +174,21 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/settings.ini" />
         <option value="$PROJECT_DIR$/src/LostMessageChecker.java" />
         <option value="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/thread/MainThread.java" />
+        <option value="$PROJECT_DIR$/src/com/thread/MainThread.java" />
+        <option value="$PROJECT_DIR$/src/com/utils/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/src/runner.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -155,7 +200,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -164,7 +209,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -216,6 +261,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="albertik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="albertik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -239,6 +354,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -535,12 +652,12 @@
       <changelist id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="" />
       <created>1422740969290</created>
       <updated>1422740969290</updated>
-      <workItem from="1422740970781" duration="3164000" />
+      <workItem from="1422740970781" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3164000" />
+    <option name="totallyTimeSpent" value="4243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -596,20 +713,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="12236" max-vertical-offset="16346">
@@ -626,14 +729,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-3.8461537" vertical-offset="16180" max-vertical-offset="62128">
+        <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-16.538462" vertical-offset="16180" max-vertical-offset="62458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="13" selection-start="4116" selection-end="4166" vertical-scroll-proportion="0.33333334" vertical-offset="1528" max-vertical-offset="25410">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
+        <state line="66" column="41" selection-start="1951" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1794#1800#0" expanded="true" />
@@ -641,9 +751,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#564#0" expanded="true" />
+            <element signature="e#4420#4438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1804">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#373#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#1577#1583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="946">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+        <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.040816326" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
       </provider>
