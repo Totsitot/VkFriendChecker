@@ -50,8 +50,10 @@ public class Api {
                 e.captcha_img = error.optString("captcha_img");
                 e.captcha_sid = error.optString("captcha_sid");
             }
-            if (code == 17)
+            if (code == 17){
                 e.redirect_uri = error.optString("redirect_uri");
+                System.out.println(e.redirect_uri);
+            }
             throw e;
         }
         if (!root.isNull("execute_errors")) {

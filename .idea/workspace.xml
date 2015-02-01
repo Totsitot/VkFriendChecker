@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="+">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" afterPath="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" afterPath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/runner.java" afterPath="$PROJECT_DIR$/src/runner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VkFriendChecker.iws" />
@@ -74,19 +74,64 @@
       <file leaf-file-name="Api.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-16.538462" vertical-offset="16180" max-vertical-offset="62458">
+            <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="6.576923" vertical-offset="1359" max-vertical-offset="62502">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#9184#9190#0" expanded="true" />
+                <element signature="e#9952#9958#0" expanded="true" />
+                <element signature="e#11164#11173#0" expanded="true" />
+                <element signature="e#11990#11999#0" expanded="true" />
+                <element signature="e#13996#14002#0" expanded="true" />
+                <element signature="e#14879#14885#0" expanded="true" />
+                <element signature="e#15827#15833#0" expanded="true" />
+                <element signature="e#16595#16601#0" expanded="true" />
+                <element signature="e#17557#17564#0" expanded="true" />
+                <element signature="e#24004#24013#0" expanded="true" />
+                <element signature="e#24025#24052#1" expanded="true" />
+                <element signature="e#31963#31972#0" expanded="true" />
+                <element signature="e#36376#36389#0" expanded="true" />
+                <element signature="e#41248#41255#0" expanded="true" />
+                <element signature="e#42149#42156#0" expanded="true" />
+                <element signature="e#44542#44548#0" expanded="true" />
+                <element signature="e#50559#50566#0" expanded="true" />
+                <element signature="e#56599#56606#0" expanded="true" />
+                <element signature="e#61565#61572#0" expanded="true" />
+                <element signature="e#64974#64981#0" expanded="true" />
+                <element signature="e#74306#74316#0" expanded="true" />
+                <element signature="e#75657#75663#0" expanded="true" />
+                <element signature="e#80851#80864#0" expanded="true" />
+                <element signature="e#83140#83150#0" expanded="true" />
+                <element signature="e#85069#85081#0" expanded="true" />
+                <element signature="e#92817#92824#0" expanded="true" />
+                <element signature="e#96103#96109#0" expanded="true" />
+                <element signature="e#97656#97663#0" expanded="true" />
+                <element signature="e#98701#98714#0" expanded="true" />
+                <element signature="e#99427#99433#0" expanded="true" />
+                <element signature="e#105818#105824#0" expanded="true" />
+                <element signature="e#118034#118047#0" expanded="true" />
+                <element signature="e#124456#124463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="550">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="runner.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="41" selection-start="1951" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
+            <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.5594203" vertical-offset="1083" max-vertical-offset="1518">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1794#1800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +140,7 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="946">
+            <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +151,7 @@
       <file leaf-file-name="MessageManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1804">
+            <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1804">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#364#373#0" expanded="true" />
@@ -140,11 +185,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="3344">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#552#564#0" expanded="true" />
-                <element signature="e#4420#4438#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,10 +199,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.040816326" vertical-offset="0" max-vertical-offset="539">
+            <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.76" vertical-offset="0" max-vertical-offset="176">
               <folding />
             </state>
           </provider>
@@ -182,14 +223,14 @@
       <list>
         <option value="$PROJECT_DIR$/settings.ini" />
         <option value="$PROJECT_DIR$/src/LostMessageChecker.java" />
-        <option value="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/utils/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/src/com/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/src/com/utils/MessageManager.java" />
-        <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
-        <option value="$PROJECT_DIR$/src/runner.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
+        <option value="$PROJECT_DIR$/src/runner.java" />
       </list>
     </option>
   </component>
@@ -348,10 +389,10 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/settings.ini" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -652,12 +693,17 @@
       <changelist id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="" />
       <created>1422740969290</created>
       <updated>1422740969290</updated>
-      <workItem from="1422740970781" duration="4243000" />
+      <workItem from="1422740970781" duration="6964000" />
     </task>
+    <task id="LOCAL-00001" summary="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~">
+      <created>1422745304989</created>
+      <updated>1422745304989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4243000" />
+    <option name="totallyTimeSpent" value="6964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -684,7 +730,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3584288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -704,6 +750,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~" />
+    <option name="LAST_COMMIT_MESSAGE" value="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -727,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="755" column="0" selection-start="32587" selection-end="32587" vertical-scroll-proportion="-16.538462" vertical-offset="16180" max-vertical-offset="62458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="13" selection-start="4116" selection-end="4166" vertical-scroll-proportion="0.33333334" vertical-offset="1528" max-vertical-offset="25410">
@@ -741,24 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="41" selection-start="1951" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1914">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1794#1800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#564#0" expanded="true" />
-            <element signature="e#4420#4438#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="946">
+        <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -793,8 +820,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.040816326" vertical-offset="0" max-vertical-offset="539">
+        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.76" vertical-offset="0" max-vertical-offset="176">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="6.576923" vertical-offset="1359" max-vertical-offset="62502">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#9184#9190#0" expanded="true" />
+            <element signature="e#9952#9958#0" expanded="true" />
+            <element signature="e#11164#11173#0" expanded="true" />
+            <element signature="e#11990#11999#0" expanded="true" />
+            <element signature="e#13996#14002#0" expanded="true" />
+            <element signature="e#14879#14885#0" expanded="true" />
+            <element signature="e#15827#15833#0" expanded="true" />
+            <element signature="e#16595#16601#0" expanded="true" />
+            <element signature="e#17557#17564#0" expanded="true" />
+            <element signature="e#24004#24013#0" expanded="true" />
+            <element signature="e#24025#24052#1" expanded="true" />
+            <element signature="e#31963#31972#0" expanded="true" />
+            <element signature="e#36376#36389#0" expanded="true" />
+            <element signature="e#41248#41255#0" expanded="true" />
+            <element signature="e#42149#42156#0" expanded="true" />
+            <element signature="e#44542#44548#0" expanded="true" />
+            <element signature="e#50559#50566#0" expanded="true" />
+            <element signature="e#56599#56606#0" expanded="true" />
+            <element signature="e#61565#61572#0" expanded="true" />
+            <element signature="e#64974#64981#0" expanded="true" />
+            <element signature="e#74306#74316#0" expanded="true" />
+            <element signature="e#75657#75663#0" expanded="true" />
+            <element signature="e#80851#80864#0" expanded="true" />
+            <element signature="e#83140#83150#0" expanded="true" />
+            <element signature="e#85069#85081#0" expanded="true" />
+            <element signature="e#92817#92824#0" expanded="true" />
+            <element signature="e#96103#96109#0" expanded="true" />
+            <element signature="e#97656#97663#0" expanded="true" />
+            <element signature="e#98701#98714#0" expanded="true" />
+            <element signature="e#99427#99433#0" expanded="true" />
+            <element signature="e#105818#105824#0" expanded="true" />
+            <element signature="e#118034#118047#0" expanded="true" />
+            <element signature="e#124456#124463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.5594203" vertical-offset="1083" max-vertical-offset="1518">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,10 +891,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>VkFriendChecker:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

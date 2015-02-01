@@ -1,3 +1,5 @@
+import com.albertik.thread.MainThread;
+import com.albertik.utils.MessageManager;
 import com.perm.kate.api.*;
 import org.json.JSONException;
 
@@ -53,29 +55,9 @@ public class runner {
         }
 
         api = new Api(accessToken, "5.26");
-        while (true)
-        {
-            Thread.sleep(4000);
-            try {
-                ArrayList<Message> messages1 = api.getMessages(0, false, 100);
-                ArrayList<Long> mids = new ArrayList<Long>();
-                for(Message m :messages1){
-                    System.out.println(m.body);
-                    mids.add(m.mid);
-                    api.sendMessage(m.uid,0,"it's ok"+m.body
-                            ,"","0",new ArrayList<String>(),new ArrayList<Long>(),
-                            "","","","");
-                }
-                api.markAsNewOrAsRead(mids,true);
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (JSONException e) {
-                e.printStackTrace();
-            } catch (KException e) {
-                e.printStackTrace();
-            }
-        }
+        MessageManager manager = new MessageManager(api);
+        MainThread mainThread = new MainThread(manager,50000,20000);
+        mainThread.start();
 
     }
 }
