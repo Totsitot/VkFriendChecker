@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java" />
+    <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="+">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" afterPath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" afterPath="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/runner.java" afterPath="$PROJECT_DIR$/src/runner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -61,22 +60,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/runner.java" line="63" class="runner" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" line="44" class="com.albertik.utils.yandex.SpellChecker" package="com.albertik.utils.yandex">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -102,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpellChecker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpellChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="30" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.30722892" vertical-offset="1152" max-vertical-offset="2002">
+            <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="2002">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,45 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONObject.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
+      <file leaf-file-name="runner.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="-4.4" vertical-offset="1430" max-vertical-offset="13552">
+            <state line="59" column="64" selection-start="1832" selection-end="1834" vertical-scroll-proportion="0.93715847" vertical-offset="691" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/runner.java">
+      <file leaf-file-name="MainThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1628">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YandexRequestMaker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="704">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#608#624#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestMaker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="880">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="44" column="60" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1166">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,16 +118,7 @@
       <file leaf-file-name="MessageManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1804">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="13310" max-vertical-offset="17336">
+            <state line="60" column="0" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-9.038462" vertical-offset="909" max-vertical-offset="1628">
               <folding />
             </state>
           </provider>
@@ -177,25 +127,7 @@
       <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.ini" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+            <state line="15" column="18" selection-start="412" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="3234">
               <folding />
             </state>
           </provider>
@@ -219,15 +151,15 @@
         <option value="$PROJECT_DIR$/src/com/albertik/utils/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/src/com/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/src/com/utils/MessageManager.java" />
-        <option value="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
-        <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequstMaker.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java" />
-        <option value="$PROJECT_DIR$/src/runner.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java" />
         <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
+        <option value="$PROJECT_DIR$/src/runner.java" />
       </list>
     </option>
   </component>
@@ -393,6 +325,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="albertik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,7 +680,8 @@
       <created>1422740969290</created>
       <updated>1422740969290</updated>
       <workItem from="1422740970781" duration="7003000" />
-      <workItem from="1422781847277" duration="4248000" />
+      <workItem from="1422781847277" duration="4280000" />
+      <workItem from="1422790130383" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~">
       <created>1422745304989</created>
@@ -754,11 +691,15 @@
       <created>1422749262068</created>
       <updated>1422749262068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+spell checker&#10;+requestmaker">
+      <created>1422786143817</created>
+      <updated>1422786143817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11251000" />
+    <option name="totallyTimeSpent" value="11997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -807,7 +748,8 @@
     </option>
     <MESSAGE value="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~" />
     <MESSAGE value="ping\pong version" />
-    <option name="LAST_COMMIT_MESSAGE" value="ping\pong version" />
+    <MESSAGE value="+spell checker&#10;+requestmaker" />
+    <option name="LAST_COMMIT_MESSAGE" value="+spell checker&#10;+requestmaker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,6 +759,78 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="27" selection-start="3651" selection-end="3651" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2002">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="13552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="13310" max-vertical-offset="17336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="3344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="62502">
@@ -826,17 +840,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="550">
-          <folding />
-        </state>
+        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1518">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,9 +873,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
@@ -898,9 +906,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/util/ArrayList.java">
@@ -910,110 +916,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1804">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.20109689" vertical-offset="0" max-vertical-offset="547">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="550">
+        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="550" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/resources.jar!/com/sun/org/apache/xml/internal/serializer/HTMLEntities.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.33333334" vertical-offset="5620" max-vertical-offset="7040" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.34042552" vertical-offset="514" max-vertical-offset="8910" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="0.20912547" vertical-offset="1430" max-vertical-offset="13552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.6615385" vertical-offset="295" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.61538464" vertical-offset="132" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.07857143" vertical-offset="0" max-vertical-offset="560">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="1359" max-vertical-offset="62502">
+        <state line="692" column="30" selection-start="29491" selection-end="29491" vertical-scroll-proportion="0.33216783" vertical-offset="14704" max-vertical-offset="62172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-9.038462" vertical-offset="909" max-vertical-offset="1628">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
+        <state line="15" column="18" selection-start="412" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="3234">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/resources.jar!/com/sun/org/apache/xml/internal/serializer/HTMLEntities.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.33333334" vertical-offset="5620" max-vertical-offset="7040">
+        <state line="44" column="60" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1166">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.34042552" vertical-offset="514" max-vertical-offset="8910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="-4.4" vertical-offset="1430" max-vertical-offset="13552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1628">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="880">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="704">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#608#624#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="30" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.30722892" vertical-offset="1152" max-vertical-offset="2002">
+        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="2002">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="64" selection-start="1832" selection-end="1834" vertical-scroll-proportion="0.93715847" vertical-offset="691" max-vertical-offset="1320">
+          <folding />
         </state>
       </provider>
     </entry>

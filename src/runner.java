@@ -57,12 +57,10 @@ public class runner {
 
         api = new Api(accessToken, "5.26");
         MessageManager manager = new MessageManager(api);
-        //MainThread mainThread = new MainThread(manager,50000,20000);
-        //mainThread.start();
+        MainThread mainThread = new MainThread(manager,50000,20000);
+        mainThread.start();
 
-        SpellChecker checker = new SpellChecker();
-        String correct = checker.correct("затра схадить в школу");
-        System.out.println(correct);
+
 
     }
 }

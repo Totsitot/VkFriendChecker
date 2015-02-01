@@ -58,7 +58,7 @@ public class MessageManager {
     {
         ArrayList<Long> mids = new ArrayList<Long>();
         for(Message m :this.messages){
-            System.out.println(m.body);
+
             mids.add(m.mid);
         }
         try {
