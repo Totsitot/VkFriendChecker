@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" afterPath="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" afterPath="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/runner.java" afterPath="$PROJECT_DIR$/src/runner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -62,6 +61,38 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/runner.java" line="63" class="runner" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" line="44" class="com.albertik.utils.yandex.SpellChecker" package="com.albertik.utils.yandex">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -71,65 +102,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Api.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
+      <file leaf-file-name="SpellChecker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="6.576923" vertical-offset="1359" max-vertical-offset="62502">
+            <state line="57" column="30" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.30722892" vertical-offset="1152" max-vertical-offset="2002">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#9184#9190#0" expanded="true" />
-                <element signature="e#9952#9958#0" expanded="true" />
-                <element signature="e#11164#11173#0" expanded="true" />
-                <element signature="e#11990#11999#0" expanded="true" />
-                <element signature="e#13996#14002#0" expanded="true" />
-                <element signature="e#14879#14885#0" expanded="true" />
-                <element signature="e#15827#15833#0" expanded="true" />
-                <element signature="e#16595#16601#0" expanded="true" />
-                <element signature="e#17557#17564#0" expanded="true" />
-                <element signature="e#24004#24013#0" expanded="true" />
-                <element signature="e#24025#24052#1" expanded="true" />
-                <element signature="e#31963#31972#0" expanded="true" />
-                <element signature="e#36376#36389#0" expanded="true" />
-                <element signature="e#41248#41255#0" expanded="true" />
-                <element signature="e#42149#42156#0" expanded="true" />
-                <element signature="e#44542#44548#0" expanded="true" />
-                <element signature="e#50559#50566#0" expanded="true" />
-                <element signature="e#56599#56606#0" expanded="true" />
-                <element signature="e#61565#61572#0" expanded="true" />
-                <element signature="e#64974#64981#0" expanded="true" />
-                <element signature="e#74306#74316#0" expanded="true" />
-                <element signature="e#75657#75663#0" expanded="true" />
-                <element signature="e#80851#80864#0" expanded="true" />
-                <element signature="e#83140#83150#0" expanded="true" />
-                <element signature="e#85069#85081#0" expanded="true" />
-                <element signature="e#92817#92824#0" expanded="true" />
-                <element signature="e#96103#96109#0" expanded="true" />
-                <element signature="e#97656#97663#0" expanded="true" />
-                <element signature="e#98701#98714#0" expanded="true" />
-                <element signature="e#99427#99433#0" expanded="true" />
-                <element signature="e#105818#105824#0" expanded="true" />
-                <element signature="e#118034#118047#0" expanded="true" />
-                <element signature="e#124456#124463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
+      <file leaf-file-name="JSONObject.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="550">
+            <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="-4.4" vertical-offset="1430" max-vertical-offset="13552">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="runner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.5594203" vertical-offset="1083" max-vertical-offset="1518">
+            <state line="63" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1628">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +133,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
+      <file leaf-file-name="YandexRequestMaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
+            <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="704">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#608#624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestMaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="880">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,13 +160,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1804">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#364#373#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#1577#1583#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,16 +168,7 @@
       <file leaf-file-name="Method.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="12236" max-vertical-offset="16346">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DelegatingMethodAccessorImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682">
+            <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="13310" max-vertical-offset="17336">
               <folding />
             </state>
           </provider>
@@ -184,7 +177,7 @@
       <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="3344">
+            <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
               <folding />
             </state>
           </provider>
@@ -193,7 +186,7 @@
       <file leaf-file-name="settings.ini" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="242">
+            <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
               <folding />
             </state>
           </provider>
@@ -202,7 +195,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.76" vertical-offset="0" max-vertical-offset="176">
+            <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
               <folding />
             </state>
           </provider>
@@ -230,7 +223,11 @@
         <option value="$PROJECT_DIR$/src/com/albertik/thread/MainThread.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/perm/kate/api/Api.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequstMaker.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java" />
         <option value="$PROJECT_DIR$/src/runner.java" />
+        <option value="$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java" />
       </list>
     </option>
   </component>
@@ -270,6 +267,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,13 +366,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="albertik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VkFriendChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="albertik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="request" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,6 +446,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -693,49 +743,54 @@
       <changelist id="1307fe9e-621c-4c51-9935-b7e31353af15" name="Default" comment="" />
       <created>1422740969290</created>
       <updated>1422740969290</updated>
-      <workItem from="1422740970781" duration="6964000" />
+      <workItem from="1422740970781" duration="7003000" />
+      <workItem from="1422781847277" duration="4248000" />
     </task>
     <task id="LOCAL-00001" summary="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~">
       <created>1422745304989</created>
       <updated>1422745304989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ping\pong version">
+      <created>1422749262068</created>
+      <updated>1422749262068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6964000" />
+    <option name="totallyTimeSpent" value="11251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3584288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -751,7 +806,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~" />
-    <option name="LAST_COMMIT_MESSAGE" value="+MainThread&#10;~&#10;+MessageManager&#10;+reply&#10;+getmessages&#10;+read all messages&#10;~" />
+    <MESSAGE value="ping\pong version" />
+    <option name="LAST_COMMIT_MESSAGE" value="ping\pong version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -761,6 +817,78 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="62502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/KException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1518">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="13310" max-vertical-offset="17336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="3344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="12236" max-vertical-offset="16346">
@@ -782,45 +910,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/MessageManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="20" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1804">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#373#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#1577#1583#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/albertik/thread/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="12" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1034">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="242">
+        <state line="5" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="242">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.76" vertical-offset="0" max-vertical-offset="176">
+        <state line="2" column="5" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
           <folding />
         </state>
       </provider>
@@ -834,51 +947,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="6.576923" vertical-offset="1359" max-vertical-offset="62502">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#9184#9190#0" expanded="true" />
-            <element signature="e#9952#9958#0" expanded="true" />
-            <element signature="e#11164#11173#0" expanded="true" />
-            <element signature="e#11990#11999#0" expanded="true" />
-            <element signature="e#13996#14002#0" expanded="true" />
-            <element signature="e#14879#14885#0" expanded="true" />
-            <element signature="e#15827#15833#0" expanded="true" />
-            <element signature="e#16595#16601#0" expanded="true" />
-            <element signature="e#17557#17564#0" expanded="true" />
-            <element signature="e#24004#24013#0" expanded="true" />
-            <element signature="e#24025#24052#1" expanded="true" />
-            <element signature="e#31963#31972#0" expanded="true" />
-            <element signature="e#36376#36389#0" expanded="true" />
-            <element signature="e#41248#41255#0" expanded="true" />
-            <element signature="e#42149#42156#0" expanded="true" />
-            <element signature="e#44542#44548#0" expanded="true" />
-            <element signature="e#50559#50566#0" expanded="true" />
-            <element signature="e#56599#56606#0" expanded="true" />
-            <element signature="e#61565#61572#0" expanded="true" />
-            <element signature="e#64974#64981#0" expanded="true" />
-            <element signature="e#74306#74316#0" expanded="true" />
-            <element signature="e#75657#75663#0" expanded="true" />
-            <element signature="e#80851#80864#0" expanded="true" />
-            <element signature="e#83140#83150#0" expanded="true" />
-            <element signature="e#85069#85081#0" expanded="true" />
-            <element signature="e#92817#92824#0" expanded="true" />
-            <element signature="e#96103#96109#0" expanded="true" />
-            <element signature="e#97656#97663#0" expanded="true" />
-            <element signature="e#98701#98714#0" expanded="true" />
-            <element signature="e#99427#99433#0" expanded="true" />
-            <element signature="e#105818#105824#0" expanded="true" />
-            <element signature="e#118034#118047#0" expanded="true" />
-            <element signature="e#124456#124463#0" expanded="true" />
-          </folding>
+        <state line="54" column="49" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="1359" max-vertical-offset="62502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/perm/kate/api/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/resources.jar!/com/sun/org/apache/xml/internal/serializer/HTMLEntities.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.33333334" vertical-offset="5620" max-vertical-offset="7040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.34042552" vertical-offset="514" max-vertical-offset="8910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-jena-1.0.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="37" selection-start="1251" selection-end="1296" vertical-scroll-proportion="-4.4" vertical-offset="1430" max-vertical-offset="13552">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="66" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.5594203" vertical-offset="1083" max-vertical-offset="1518">
+        <state line="63" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1628">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/request/RequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="880">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/YandexRequestMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="704">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#608#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/albertik/utils/yandex/SpellChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="30" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.30722892" vertical-offset="1152" max-vertical-offset="2002">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
