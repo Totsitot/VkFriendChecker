@@ -4,11 +4,11 @@ import com.albertik.utils.yandex.SpellChecker;
 import com.perm.kate.api.*;
 import org.json.JSONException;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import javax.swing.*;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -55,10 +55,14 @@ public class runner {
             checkSettingFile();
         }
 
-        api = new Api(accessToken, "5.26");
-        MessageManager manager = new MessageManager(api);
-        MainThread mainThread = new MainThread(manager,50000,20000);
-        mainThread.start();
+
+
+
+
+                api = new Api(accessToken, "5.26");
+                MessageManager manager = new MessageManager(api);
+                MainThread mainThread = new MainThread(manager,40000,15000);
+                mainThread.start();
 
 
 
